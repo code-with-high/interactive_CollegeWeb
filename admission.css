@@ -1,0 +1,50 @@
+form{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 25%;
+    background: whitesmoke;
+}
+form:hover{
+    box-shadow: 5px 10px 20px rgb(133, 131, 131);
+}
+form label{
+    display: inline-block;
+    width: 200px;
+    padding: 20px 10px;
+}
+input[type="text"]{
+    height: 25px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="email"]{
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="tel"]{
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    background: none;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    transition: padding .3s;
+}
+input[type="submit"]:hover{
+    padding: 10px 20px;
+    background: goldenrod;
+    color:#004068;
+    box-shadow: 5px 5px 15px rgb(133, 131, 131);
+}
+
+.invalid{
+    border-color: red;
+}
